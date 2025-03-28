@@ -1,0 +1,17 @@
+{
+  "id": "jcclk",
+  "name": "JC Clock",
+  "version": "0.03",
+  "description": "A JC clock",
+  "icon": "app.png",
+  "screenshots": [{"url":"screenshot.png"}],
+  "type": "clock",
+  "tags": "clock",
+  "supports": ["BANGLEJS","BANGLEJS2"],
+  "readme": "README.md",
+  "allow_emulator": true,
+  "storage": [
+    {"name":"jcclk.app.js","url":"app.js"},
+    {"name":"jcclk.img","url":"app-icon.js","evaluate":true}
+  ]
+}
